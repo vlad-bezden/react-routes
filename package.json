@@ -10,6 +10,9 @@
     "react",
     "router"
   ],
+  "scripts": {
+    "hello-route": "cd hello-route && \"../node_modules/.bin/webpack-dev-server\""
+  },
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4",

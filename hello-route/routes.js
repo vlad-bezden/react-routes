@@ -6,10 +6,8 @@ import {
 
 import HelloRoute from './HelloRoute'
 
-const Routes = () => (
+export default () => (
   <Router>
     <Route path='/' component={HelloRoute} />
   </Router>
 )
-
-export default Routes

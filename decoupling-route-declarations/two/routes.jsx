@@ -3,21 +3,21 @@ import React from 'react'
 import {
   BrowserRouter as Router,
   Route,
-  Link
+  Link,
 } from 'react-router-dom'
 
 import First from './First'
 import Second from './Second'
 
 export default (
-  <Router basename='/two'> 
+  <Router basename='/two'>
     <div>
       <h2>Two</h2>
       <ul>
         <li><Link to='/First'>One First</Link></li>
         <li><Link to='/Second'>One Second</Link></li>
       </ul>
-    
+
       <Route path='/First' component={First} />
       <Route path='/Second' component={Second} />
     </div>

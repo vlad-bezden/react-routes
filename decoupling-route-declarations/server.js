@@ -13,8 +13,6 @@ new WebpackDevServer(webpack(config), {
   publicPath: config.output.publicPath,
   historyApiFallback: true,
   hot: true,
-}).listen(port, ip, err =>
-  err ?
-    console.error(err) :
-    console.log(`Listening at ${ip} : ${port}`)
-)
+}).listen(port, ip, (err) => {
+  err ? console.error(err) : console.log(`Listening at ${ip} : ${port}`)
+})

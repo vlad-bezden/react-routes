@@ -5,5 +5,5 @@ import Routes from './routes'
 
 render(
   <Routes />,
-  document.getElementById('app')
+  document.getElementById('app'),
 )

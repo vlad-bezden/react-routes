@@ -11,7 +11,8 @@
     "router"
   ],
   "scripts": {
-    "hello-route": "cd hello-route && \"../node_modules/.bin/webpack-dev-server\""
+    "hello-route": "cd hello-route && \"../node_modules/.bin/webpack-dev-server\"",
+    "decoupling-route-declarations": "cd decoupling-route-declarations && \"../node_modules/.bin/webpack-dev-server\""
   },
   "dependencies": {
     "react": "^15.5.4",

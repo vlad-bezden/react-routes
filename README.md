@@ -1,5 +1,5 @@
 # react-routes
-Examples on how to use react-router-dom
+Examples on how to use react-router-dom, BrowserRouter, HashRouter
 
 ## - hello-route
 Very basic route example, that requires minimum configuration for react-router-dom
@@ -25,3 +25,14 @@ It will open web-dev-server with hot reloading, but it will not react to manuall
 node server
 ```
 after starting web server we can enter navigation into URL address bar (localhost:8080/one/First)
+
+## - parent-and-child-routes
+Example of how to use application template (App) and passe different React elements based on the specified route.
+
+This example uses HashRouter, so no server is required for navigation.
+
+To run this example navigate to parent-and-child-router directory and from command line enter:
+
+```
+npm run parent-and-child-router
+```

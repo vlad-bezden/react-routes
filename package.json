@@ -12,9 +12,11 @@
   ],
   "scripts": {
     "hello-route": "cd hello-route && \"../node_modules/.bin/webpack-dev-server\"",
-    "decoupling-route-declarations": "cd decoupling-route-declarations && \"../node_modules/.bin/webpack-dev-server\""
+    "decoupling-route-declarations": "cd decoupling-route-declarations && \"../node_modules/.bin/webpack-dev-server\"",
+    "parent-and-child-routes": "cd parent-and-child-routes & \"../node_modules/.bin/webpack-dev-server\""
   },
   "dependencies": {
+    "prop-types": "^15.5.8",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-router-dom": "^4.1.1"

@@ -2,7 +2,7 @@ const path = require('path')
 
 module.exports = {
   entry: [
-    './index.jsx',
+    './index.js',
   ],
   devServer: {
     inline: true,
